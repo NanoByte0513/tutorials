@@ -1,0 +1,19 @@
+namespace fbs_torch;
+
+table Tensor {
+    shape: [int];
+    data: [float];
+}
+
+table Parameters {
+    name: string(required);
+    tensor: Tensor(required);
+}
+
+table Model {
+    name: string(required);
+    weight: Parameters(required);
+    bias: Parameters(required);
+}
+
+root_type Model;

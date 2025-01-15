@@ -10,6 +10,7 @@
 + ONNXRuntime
 + [TVM](https://zhuanlan.zhihu.com/p/353660224)
 + [QNN](https://www.qualcomm.com/developer/software/qualcomm-ai-engine-direct-sdk?redirect=qdn): Qualcomm AI eigine
++ [MNN](https://github.com/alibaba/MNN): [Zhihu Page](https://zhuanlan.zhihu.com/p/64903359). Mobile inference engine from Alibaba.
 
 # Training Frameworks
 + [Megatron](): Megatron 是 NVIDIA 开发的一个基于 PyTorch 的分布式训练框架，特别用于训练基于 Transformer 的大型语言模型。Megatron 综合应用了数据并行、张量并行和流水线并行等多种并行策略，以支持模型的高效训练。
@@ -26,10 +27,15 @@
 + ZeRO
 + [Pipeline Parallelism](https://zhuanlan.zhihu.com/p/613196255): GPipe from Google
 + [Flash Attention](https://zhuanlan.zhihu.com/p/676655352)
++ [LoRA](https://blog.csdn.net/m0_63171455/article/details/139614304): Low-Rank Adaptation
 
 # Develop Frameworks
 + CUDA
 + OpenCL
+
+# Loacalization
++ 寒武纪MLU: [Tutorials](https://developer.cambricon.com/index/curriculum/index/classid/7.html), MagicMind Inference Engine
++ 海光DCU
 
 # Others
 + [ONNX](https://blog.csdn.net/weixin_44878336/article/details/135820896)

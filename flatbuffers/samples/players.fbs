@@ -1,0 +1,34 @@
+namespace Basketball;
+
+enum Position:byte {PG=0, SG=1, SF=2, PF=3, C=4}
+
+struct Vec3 {
+    x: float;
+    y: float;
+    z: float;
+}
+
+struct Salary {
+    sal: [float:5];
+}
+
+table Player {
+    name: string;
+    nationality: string;
+    age: uint8;
+    position:Position = SG;
+    pos: Vec3;
+    height: uint8;
+    weight: uint8;
+    city: City;
+    retired:bool = false;
+    salary: Salary;
+}
+
+table City {
+    name: string;
+    zip_code: string;
+    population: float;
+}
+
+root_type Player;
