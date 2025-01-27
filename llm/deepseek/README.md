@@ -1,0 +1,2 @@
+# DeepSeek
+DeepSeek is a set of models on top of **MoE** architecture, trained with **reinforcement learning**, [R1 paper](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf), [V2 paper](https://arxiv.org/pdf/2405.04434).

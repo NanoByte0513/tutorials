@@ -33,7 +33,11 @@ context -> enqueueV2(data, stream, nullptr); // Execute
 ```
 
 # Some Useful Parser
-+ ONNX: [TRT official onnx parser](https://github.com/NVIDIA/TensorRT/tree/main/parsers)
++ ONNX: [TRT official onnx parser](https://github.com/NVIDIA/TensorRT/tree/main/parsers), this is the **official recommended** parser.
 + PyTorch: pt -> onnx -> trt; pt -> trt with [this parser](https://github.com/NVIDIA-AI-IOT/torch2trt)
 + TensorFlow: [TF official parser](https://github.com/tensorflow)
 + Tencent Forward: [Parser](https://github.com/Tencent/Forward) for pt, tf and onnx
+
+
+# PolyGraphy
+The official DEBUG tool.

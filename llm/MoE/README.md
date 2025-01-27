@@ -1,0 +1,2 @@
+# Mixture of Experts
+MoE architecture([Paper](https://arxiv.org/abs/2101.03961)) consists of multiple expert networks and a gating network. The gating network dynamically selects a subset of expert networks to process each input, allowing the model to scale efficiently by activating only a fraction of the total parameters for each input. In another words, **only a subset of params are activated for each input.**

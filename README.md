@@ -13,7 +13,7 @@
 + [MNN](https://github.com/alibaba/MNN): [Zhihu Page](https://zhuanlan.zhihu.com/p/64903359). Mobile inference engine from Alibaba.
 
 # Training Frameworks
-+ [Megatron](): Megatron 是 NVIDIA 开发的一个基于 PyTorch 的分布式训练框架，特别用于训练基于 Transformer 的大型语言模型。Megatron 综合应用了数据并行、张量并行和流水线并行等多种并行策略，以支持模型的高效训练。
++ Megatron([GitHub Page](https://github.com/NVIDIA/Megatron-LM), [Paper](https://arxiv.org/abs/1909.08053)): Developed by NVidia, **built on top of PyTorch**, specifically optimized for training large-scale transformer models across multiple GPUs and nodes.Uses model parallelism and data parallelism to maximize GPU utilization. Primarily focused on transformer-based architectures like GPT, BERT, and their variants. 
 + [DeepSpeed](https://blog.csdn.net/myTomorrow_better/article/details/138945584)([Article](https://blog.csdn.net/weixin_53795646/article/details/143674918)): DeepSpeed 是由微软开发并维护的开源深度学习优化库，专注于提高大规模模型训练的效率和可扩展性。
 
 # LLM
