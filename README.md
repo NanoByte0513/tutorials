@@ -11,9 +11,10 @@
 + [TVM](https://zhuanlan.zhihu.com/p/353660224)
 + [QNN](https://www.qualcomm.com/developer/software/qualcomm-ai-engine-direct-sdk?redirect=qdn): Qualcomm AI eigine
 + [MNN](https://github.com/alibaba/MNN): [Zhihu Page](https://zhuanlan.zhihu.com/p/64903359). Mobile inference engine from Alibaba.
++ vLLM: [GitHub Page](https://github.com/vllm-project/vllm), [Zhihu Page](https://zhuanlan.zhihu.com/p/691092042), the first to introduce PagedAttention.
 
 # Training Frameworks
-+ Megatron([GitHub Page](https://github.com/NVIDIA/Megatron-LM), [Paper](https://arxiv.org/abs/1909.08053)): Developed by NVidia, **built on top of PyTorch**, specifically optimized for training large-scale transformer models across multiple GPUs and nodes.Uses model parallelism and data parallelism to maximize GPU utilization. Primarily focused on transformer-based architectures like GPT, BERT, and their variants. 
++ Megatron([GitHub Page](https://github.com/NVIDIA/Megatron-LM), [Paper](https://arxiv.org/abs/1909.08053)): Developed by NVidia, **built on top of PyTorch**, specifically optimized for training large-scale transformer models across multiple GPUs and nodes.Uses model parallelism and data parallelism to maximize GPU utilization. Primarily focused on **transformer-based architectures** like GPT, BERT, and their variants. 
 + [DeepSpeed](https://blog.csdn.net/myTomorrow_better/article/details/138945584)([Article](https://blog.csdn.net/weixin_53795646/article/details/143674918)): DeepSpeed 是由微软开发并维护的开源深度学习优化库，专注于提高大规模模型训练的效率和可扩展性。
 
 # LLM
@@ -27,6 +28,7 @@
 + ZeRO
 + [Pipeline Parallelism](https://zhuanlan.zhihu.com/p/613196255): GPipe from Google
 + [Flash Attention](https://zhuanlan.zhihu.com/p/676655352)
++ PagedAttention: [GitHub Page](), [Zhihu Page](https://zhuanlan.zhihu.com/p/691092042)
 + [LoRA](https://blog.csdn.net/m0_63171455/article/details/139614304): Low-Rank Adaptation
 
 # Develop Frameworks
