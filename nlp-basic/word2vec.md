@@ -22,3 +22,13 @@ Use the central word to predict the context words.
 4. Back-prop to train the neural network.
 ![Skip-Gram](../data/imgs/word2vec_process.png)
 **NOTICE**: The purpose of this FC model is NOT to predict a pricise output for the context words(for skip-gram) or central word(for CBOW), the target of word2vec neural network is to get a fine-embedded vector(green one in the image), then gives this embedding vector to other language models.
+
+# Contributions and Limitations
++ Word2Vec is the first to introduce the distribution word representation(First learn a word embedding, then feed it other language models), which is the inspiration of GloVe and fastText.
++ It's a static word embedding method(When learned, the embedding vector is fixed), use the entire vocab to train the embedding model.
++ One embedding vector for each word, unable to catch the different meaning of words in different context.
++ Unable to handle new words.
+![Skip-Gram](../data/imgs/word2vec-limitations.png)
+
+# Comparison with Modern LM(BERT and GPT)
+BERT and GPT do not need a seperated word-embedding model(Word2Vec) to embed a word before inputting to the model, they has a built-in word-embedding layer which can dynamically learn the word embedding.

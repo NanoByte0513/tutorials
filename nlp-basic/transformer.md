@@ -14,3 +14,9 @@ Better in comprehensive ability, less better in generating ability.
 # Decoder-only Family: GPT
 ## GPT
 Generative Pre-trained transformer. A **single-directional** model, when generating a word during training, only the prior words can be seen.
+
+
+# Seq2Seq
+
+
+# Attention Mechanism
